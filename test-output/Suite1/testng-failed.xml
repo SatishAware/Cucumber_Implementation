@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <parameter name="browser" value="Chrome"/>
+  <test name="Regression1">
+    <classes>
+      <class name="Satish.Cucumber.RunCukesTest"/>
+    </classes>
+  </test> <!-- Regression1 -->
+  <test name="Regression1(failed)">
+    <classes>
+      <class name="Satish.Cucumber.RunCukesTest">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Satish.Cucumber.RunCukesTest -->
+    </classes>
+  </test> <!-- Regression1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

@@ -7,6 +7,8 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 import org.junit.runner.RunWith;
 
 //@RunWith(Cucumber.class)
+
+//Satish
 @CucumberOptions(features = {"src/test/resources"},
 		plugin = {"pretty"})
 public class RunCukesTest extends AbstractTestNGCucumberTests {
