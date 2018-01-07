@@ -50,7 +50,8 @@ public class Hooks{
         public void embedScreenshot(Scenario scenario) {
             if(scenario.isFailed()) {
             try {
-                scenario.write("Current Page URL is " + driver.getCurrentUrl());
+                scenario.write("Current Page URL is: " + driver.getCurrentUrl());
+               
 //                byte[] screenshot = getScreenshotAs(OutputType.BYTES);
                 byte[] screenshot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
                 scenario.embed(screenshot, "image/png");
