@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="8839" started-at="2018-01-07T17:57:57Z" finished-at="2018-01-07T17:58:05Z">
+  <suite name="Suite1" duration-ms="4017" started-at="2018-01-07T18:44:15Z" finished-at="2018-01-07T18:44:19Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Satish.Cucumber.RunCukesTest@57fffcd7]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Regression1" duration-ms="8839" started-at="2018-01-07T17:57:57Z" finished-at="2018-01-07T17:58:05Z">
+    <test name="Regression1" duration-ms="4017" started-at="2018-01-07T18:44:15Z" finished-at="2018-01-07T18:44:19Z">
       <class name="Satish.Cucumber.RunCukesTest">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Satish.Cucumber.RunCukesTest@57fffcd7]" name="setUpClass" is-config="true" duration-ms="587" started-at="2018-01-07T23:27:57Z" finished-at="2018-01-07T23:27:57Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Satish.Cucumber.RunCukesTest@57fffcd7]" name="setUpClass" is-config="true" duration-ms="249" started-at="2018-01-08T00:14:15Z" finished-at="2018-01-08T00:14:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Satish.Cucumber.RunCukesTest@57fffcd7]" name="feature" duration-ms="7903" started-at="2018-01-07T23:27:58Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-01-07T23:28:05Z">
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Satish.Cucumber.RunCukesTest@57fffcd7]" name="feature" duration-ms="3651" started-at="2018-01-08T00:14:15Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-01-08T00:14:19Z">
           <params>
             <param index="0">
               <value>
@@ -65,7 +65,7 @@ Caused by: org.junit.ComparisonFailure: expected:<[Selenium Framework | Selenium
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Satish.Cucumber.RunCukesTest@57fffcd7]" name="tearDownClass" is-config="true" duration-ms="7" started-at="2018-01-07T23:28:05Z" finished-at="2018-01-07T23:28:05Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Satish.Cucumber.RunCukesTest@57fffcd7]" name="tearDownClass" is-config="true" duration-ms="15" started-at="2018-01-08T00:14:19Z" finished-at="2018-01-08T00:14:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
