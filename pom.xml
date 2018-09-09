@@ -2,15 +2,17 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>satish</groupId>
-  <artifactId>cucumber</artifactId>
+  <groupId>com.alefEducation</groupId>
+  <artifactId>petClinic_Project</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>cucumber</name>
+ <name>petClinic_Project</name>
   <url>http://maven.apache.org</url>
 
-  <dependencies>
+  <dependencies>      
+        
+        
         <dependency>
             <groupId>info.cukes</groupId>
             <artifactId>cucumber-java</artifactId>
@@ -28,16 +30,9 @@
 		<dependency>
   			<groupId>org.testng</groupId>
   			<artifactId>testng</artifactId>
-  			<version>6.9.10</version>
+  			<version>6.9.13.6</version>
   			<scope>test</scope>
 		</dependency>
-<!-- 
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.11</version>
-            <scope>test</scope>
-        </dependency> -->
 
         <dependency>
             <groupId>org.mockito</groupId>
@@ -57,9 +52,20 @@
     <artifactId>cucumber-testng</artifactId>
     <version>1.2.5</version>
 </dependency>
+   
+<dependency>
+	<groupId>com.vimalselvam</groupId>
+	<artifactId>cucumber-extentsreport</artifactId>
+	<version>3.0.2</version>
+</dependency>
+
+<dependency>
+	<groupId>com.aventstack</groupId>
+	<artifactId>extentreports</artifactId>
+	<version>3.1.2</version>
+</dependency>   
     
     </dependencies>
-
     <build>
         <plugins>
             <plugin>
